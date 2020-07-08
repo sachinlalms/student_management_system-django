@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'student_management_app'
 ]
 
 MIDDLEWARE = [
@@ -81,8 +82,8 @@ DATABASES = {
         'NAME':  'student_management_system',
         'USER':  'student_management_system',
         'PASSWORD': 'student_management_password',
-        'HOST':'localhost',
-        'PORT':'3306'
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
